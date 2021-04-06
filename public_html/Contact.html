@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Movies Grabber</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="contact.css">
+        <style>
+            .img{width:100% ;height: 700px ; }
+        </style>
+    </head>
+    <body>
+        <!--Header starts-->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Movies <span style="color: red">Grabber</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Bollywood.html">Bollywood</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Hollywood.html">Hollywood</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Tollywood.html">Tollywood</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">ContactUs</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div><br><br>
+        <!--header close-->
+
+        <!--Section Starts-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="text-align: center">Media Partners</h3><br><br><br>
+                    <img src="images/partners.png" width="600" height="400" alt=""/>
+                </div>
+                <div class="col-md-6">
+                    <h3 style="text-align: center">Contact Form</h3><br>
+
+                    <div class="container">
+                        <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">India</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                                <option value="usa">Australia</option>
+                            </select>
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div><br>
+        <!--section ends-->
+        <!--footer starts-->
+        <div class="container-fluid" style="background-color: black; color: white; padding: 40px"><br><br>
+            <h5 style="text-align: center">&copy; Copywrite System.All Rights Are Reserved<br> By <a href="">google.com</a></h5>
+
+        </div>
+        <!--footer ends-->
+    </body>
+</html>
